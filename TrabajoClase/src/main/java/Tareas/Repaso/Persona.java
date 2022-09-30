@@ -1,4 +1,4 @@
-package Tareas.Tarea1;
+package Tareas.Repaso;
 
 import javax.swing.JOptionPane;
 
