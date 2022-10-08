@@ -5,8 +5,8 @@ package trabajoclase;
  * @author Jesús
  */
 public class Node<T> {
-    private T value;
-    private Node<T> next;
+    private T value; //el valor que se va usar y la T es un atributo de cualquier tipo
+    private Node<T> next; // sería el siguiente valor.
 
     public Node() {
     }
