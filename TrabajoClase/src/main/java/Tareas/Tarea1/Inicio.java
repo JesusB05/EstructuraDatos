@@ -16,12 +16,12 @@ public class Inicio {
      */
     public static void main(String[] args) {
         //Ejercicio 1
-        /* int num; 
+        int num; 
         Scanner sc = new Scanner(System.in);
         System.out.println("Introduce el número que desea invertir: ");
         num = sc.nextInt();
         sc.close();
-        System.out.println("El número de forma invertida es:" + invertirNumeroString(num)); */
+        System.out.println("El número de forma invertida es:" + invertirNumeroString(num)); 
 
         //Ejercicio 2 
         // System.out.println(Ejercicio2.palabra2(0));
