@@ -23,9 +23,9 @@ public class Inicio {
         System.out.println(Pila.pop());
         System.out.println(Pila.pop());
         System.out.println(Pila.pop());
-        System.out.println(Pila.pop());
+        System.out.println(Pila.pop());*/
         //Ejercicio 3 pilas
-        /* Stack<Integer> Pila2 = new Stack<Integer>();
+        /*Stack<Integer> Pila2 = new Stack<Integer>();
         Pila2.push(1);
         Pila2.push(2);
         Pila2.push(3);
@@ -52,22 +52,35 @@ public class Inicio {
             prueba2.enqueue(i);*/
         
          //-----Listas Simple-------
-         ListaS Lista= new ListaS();
+         /*ListaS Lista= new ListaS();
          Lista.insertar(new Persona(1, "P"));
          Lista.insertar(new Persona(2, "P"));
          Lista.insertar(new Persona(3, "P"));
          Lista.insertar(new Persona(5, "P"));
          Lista.insertar(new Persona(4, "P"));
          Lista.imprimirLista();
-        Lista.eliminarPersona(3);
+        Lista.eliminarPersona(3);*/
+         
           //-----Listas Simple Circular-------
-        /* ListaSimpleC Listac= new ListaSimpleC();
+        /*ListaSimpleC Listac= new ListaSimpleC();
          Listac.insertar(new Persona(1, "P"));
          Listac.insertar(new Persona(4, "P"));
          Listac.insertar(new Persona(5, "P"));
          Listac.insertar(new Persona(2, "P"));
          Listac.imprimirLista();*/
          
+         ListaDobleC Listadc= new ListaDobleC();
+         Listadc.insertar(new Persona(1, "P"));
+         Listadc.insertar(new Persona(4, "P"));
+         Listadc.insertar(new Persona(5, "P"));
+         Listadc.insertar(new Persona(2, "P"));
+         Listadc.imprimirLista();
+         //Listadc.existe(5);
+         //Listadc.modifica(new Persona(5,"F"));
+         Listadc.elimina(5);
+         Listadc.imprimirLista();
+         
+      
         
         }
        

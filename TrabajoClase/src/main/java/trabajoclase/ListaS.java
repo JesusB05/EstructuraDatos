@@ -24,7 +24,7 @@ public class ListaS {
 
         } else {
             Node<Persona> aux = cabeza;
-            while (aux.getNext() != null && aux.getNext().getValue().getId() < nuevoNodo.getValue().getId()) {
+            while (aux.getNext() != null && aux.getNext().getValue().getId() < nuevoNodo.getValue().getId()) { //valida todos los datos para acomodar los datos
                 aux = aux.getNext();
             }
             nuevoNodo.setNext(aux.getNext());
@@ -56,9 +56,9 @@ public class ListaS {
                     aux=aux.getNext();
                 }
             }
-                if(encuentra==false){
+               
+            }if(encuentra==false){
                    System.out.println("No hay ninguna persona en la lista con el ID"); 
-                }
-            }
         }
+    }
 }

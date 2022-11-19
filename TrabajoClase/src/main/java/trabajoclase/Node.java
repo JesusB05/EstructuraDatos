@@ -1,12 +1,8 @@
 package trabajoclase;
-
-/**
- *
- * @author Jesús
- */
 public class Node<T> {
-    private T value; //el valor que se va usar y la T es un atributo de cualquier tipo
-    private Node<T> next; // sería el siguiente valor.
+    private T value;
+    private Node<T> next;
+    private Node<T> back;
 
     public Node() {
     }
@@ -14,7 +10,7 @@ public class Node<T> {
     public Node(T value) {
         this.value = value;
     }
- 
+
     public T getValue() {
         return value;
     }
@@ -29,6 +25,14 @@ public class Node<T> {
 
     public void setNext(Node<T> next) {
         this.next = next;
+    }
+
+    public Node<T> getBack() {
+        return back;
+    }
+
+    public void setBack(Node<T> back) {
+        this.back = back;
     }
     
 }
