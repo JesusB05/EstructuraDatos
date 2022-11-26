@@ -31,14 +31,12 @@ public class Inicio {
         Pila2.push(3);
         System.out.println(Pila2.encuentra(3));*/
         //Colas
-       /*Queue<Integer> Cola = new Queue<Integer>();
+        /*Queue<Integer> Cola = new Queue<Integer>();
         Cola.enqueue(1);
         Cola.enqueue(2);
         Cola.enqueue(4);
         System.out.println(Cola.dequeue());
         System.out.println(Cola.dequeue().getValue());*/
-        
-        
         //Llenar cola con 100 elementos
         /*Queue<Integer> prueba = new Queue<Integer>();
         for (int i = 0; i < 100; i++) {
@@ -50,9 +48,8 @@ public class Inicio {
         prueba2.enqueue(temp);
         for (int i = 0; i < 100; i++) {
             prueba2.enqueue(i);*/
-        
-         //-----Listas Simple-------
-         /*ListaS Lista= new ListaS();
+        //-----Listas Simple-------
+        /*ListaS Lista= new ListaS();
          Lista.insertar(new Persona(1, "P"));
          Lista.insertar(new Persona(2, "P"));
          Lista.insertar(new Persona(3, "P"));
@@ -60,16 +57,14 @@ public class Inicio {
          Lista.insertar(new Persona(4, "P"));
          Lista.imprimirLista();
         Lista.eliminarPersona(3);*/
-         
-          //-----Listas Simple Circular-------
+        //-----Listas Simple Circular-------
         /*ListaSimpleC Listac= new ListaSimpleC();
          Listac.insertar(new Persona(1, "P"));
          Listac.insertar(new Persona(4, "P"));
          Listac.insertar(new Persona(5, "P"));
          Listac.insertar(new Persona(2, "P"));
          Listac.imprimirLista();*/
-         
-         ListaDobleC Listadc= new ListaDobleC();
+ /*ListaDobleC Listadc= new ListaDobleC();
          Listadc.insertar(new Persona(1, "P"));
          Listadc.insertar(new Persona(4, "P"));
          Listadc.insertar(new Persona(5, "P"));
@@ -78,11 +73,22 @@ public class Inicio {
          //Listadc.existe(5);
          //Listadc.modifica(new Persona(5,"F"));
          Listadc.elimina(5);
-         Listadc.imprimirLista();
-         
-      
-        
-        }
-       
+         Listadc.imprimirLista();*/
+ 
+        Arbol arbol = new Arbol();
+        arbol.inserta(50);
+        arbol.inserta(20);
+        arbol.inserta(15);
+        arbol.inserta(30);
+        arbol.inserta(40);
+        arbol.inserta(33);
+        arbol.inserta(80);
+        arbol.inserta(60);
+        arbol.inserta(90);
+        arbol.inserta(75);
+        arbol.inserta(82);
+        arbol.inOrden();
+        arbol.retornarAltura();
+    }
 
 }
